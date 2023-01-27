@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+a {
+  color: red !important;
+}
+
+.link {
+  color: green;
+}
+
+.link[target] {
+  color: pink;
+}
+
+a.link[target] {
+  color: yellow;
+}
+
+a.link[href] {
+  color: blue;
+}

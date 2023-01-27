@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+:root {
+  /* --bland-colore:orange; */
+  --bland-colore: skyblue;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 16px - 16px);
+}
+
+h1 {
+  margin: 0;
+  color: var(--bland-colore);
+  border-bottom: 2px solid var(--bland-colore);
+}
+
+p {
+  margin: 0;
+}
